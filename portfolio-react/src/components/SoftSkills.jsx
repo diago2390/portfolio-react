@@ -1,13 +1,21 @@
 import React from 'react';
+import '../style/App.css'; // Asegurate que los estilos estén ahí
 
-function softSkills() {
+function SoftSkills() {
   const skills = ["Responsabilidad", "Trabajo en equipo", "Comunicación"];
 
   return (
-    <ul>
-      {skills.map((skill, index) => <li key={index}>{skill}</li>)}
-    </ul>
+    <section id="softskills">
+      <h2>Soft Skills</h2>
+      <ul className="skills-grid">
+        {skills.map((skill, index) => (
+          <li key={index}>
+            <p>{skill}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
-export default softSkills;
+export default SoftSkills;

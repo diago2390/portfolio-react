@@ -7,11 +7,13 @@ function Main() {
   return (
     <main>
       <div>
-        <p>Soy Cesar Brandan, estudiante de Programación en la Facultad Regional Tucumán...</p>
-        <h2 id="estudios">Estudios</h2>
-        <Estudios />
-        <h2 id="softskills">Soft Skills</h2>
-        <SoftSkills />
+        <p className='presentacion'>Hola, mi nombre es Cesar Brandan y soy estudiante de Programación en la Facultad Regional Tucumán.
+        Me apasiona el desarrollo de software y estoy en constante aprendizaje para mejorar mis habilidades técnicas y personales. Este portfolio refleja mi formación, 
+        mis proyectos y mi compromiso con la tecnología.</p>
+        <h2 id="estudios"><Estudios /></h2>
+        
+        <h2 id="softskills"><SoftSkills /></h2>
+        
       </div>
     </main>
   );
